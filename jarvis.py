@@ -15,7 +15,7 @@ music =[]
 
 
 engine = pyttsx3.init('sapi5')
-client = wolframalpha.Client('QX8979-3LEU6U6AV7')
+client = wolframalpha.Client('Enter Your ID')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[len(voices)-2].id)
 
